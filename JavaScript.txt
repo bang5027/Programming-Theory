@@ -1,0 +1,4 @@
+﻿자바스크립트 : 뒤로가기 : 'javascript:history.go(-1)'
+JSTL Tag Lib 추가 : <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>    
+
+dom 객체 : https://developer.mozilla.org/ko/docs/Gecko_DOM_Reference/%EC%86%8C%EA%B0%9C

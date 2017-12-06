@@ -1,0 +1,15 @@
+create table testestes (
+ZIPCODE varchar(255) primary key,
+SIDO varchar(255),
+GUGUN varchar(255),
+DONG varchar(255),
+RI varchar(255),
+BLDG varchar(255),
+BUNJI varchar(255),
+SEQ varchar(255)
+);
+
+
+LOAD DATA LOCAL INFILE 'C:/Users/odae/Pictures/zipcode.txt'
+INTO TABLE testestes FIELDS TERMINATED BY '\t' 
+LINES TERMINATED BY '\n';
